@@ -8,7 +8,7 @@ The variables are:
 
 - Volumetric Flowrate (m^3/s) or Fluid Velocity (m/s)
 - Inner diameter of the pipe (mm)
-- Kinematic Viscocity (m^2/s) of the fluid
+- Kinematic Viscosity (m^2/s) of the fluid
 - Pipe's material 
 
 In function of the pipe's material, a relative rugosity will be chosen (From Çengel Fluid Mechanics Fundamentals and Applications)
