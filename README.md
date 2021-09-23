@@ -12,3 +12,7 @@ The variables are:
 - Pipe's material 
 
 In function of the pipe's material, a relative rugosity will be chosen (From Çengel Fluid Mechanics Fundamentals and Applications)
+
+23/09/2021
+
+- A few output messages were modified, and the executable file of the program was included
