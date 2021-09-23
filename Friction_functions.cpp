@@ -12,7 +12,7 @@ double get_roughtness (){
 	int k;
 	cout <<"\n\nEnter the digit corresponding the pipe's material': \n\n";
 	//Se introduce la rugosidad absoluta del material en mm segun la eleccion del usuario
-	cout <<"Glass, plastic [1] \nConcrete [2] \nWood stave [3] \nRubber [4] \nCopper of brass tubing [5] \nCast iron [6] \nGalvanized iron [7] \nStainless iron [8] \nCommercial steel [9] \nWrought iron [0] \nSu eleccion: ";
+	cout <<"Glass, plastic [1] \nConcrete [2] \nWood stave [3] \nRubber [4] \nCopper of brass tubing [5] \nCast iron [6] \nGalvanized iron [7] \nStainless iron [8] \nCommercial steel [9] \nWrought iron [0] \nYour choice: ";
 	while (!(cin>>k)|| k!=1 && k!=2 && k!=3 && k!=4 && k!=5 && k!=6 && k!=7 && k!=8 && k!=9 && k!=0){
 	
 		cout<<"Wrong entry \nTry again \n\n";
@@ -128,7 +128,7 @@ double Reynolds(int const &g, const double &D){
 			cin >> Q;
 			cout<< "Enter the Kinematic Viscocity of the fluid in [m^2/s]: ";
 			cin >> v;
-			Re = (4*Q/(4*atan(1)*(D/1000)))/v;			//Se calcula el Numero de Reynolds 
+			Re = (4*Q/(4*atan(1)*(D/1000)))/v;			//Reynolds Number is calculated here 
 		break;
 		
 		case 2:
@@ -137,7 +137,7 @@ double Reynolds(int const &g, const double &D){
 			cin >> V;
 			cout << "Enter the Kinematic Viscocity of the fluid in [m^2/s]: ";
 			cin >> v;
-			Re = (V*D/1000)/v;						//Se calcula el Numero de Reynolds 
+			Re = (V*D/1000)/v;						//Reynolds Number is calculated here  
 		break;
 		
 	}
